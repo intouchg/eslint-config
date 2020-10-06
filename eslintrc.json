@@ -45,7 +45,7 @@
 	"rules": {
 		"react/prop-types": 0,
 		"react/no-unknown-property": [2],
-		"react/jsx-handler-names": "error",
+		"react/jsx-handler-names": "off",
 		"react/no-deprecated": "error",
 		"react/jsx-max-props-per-line": ["error", { "maximum": 1 }],
 		"react/jsx-one-expression-per-line": ["off"],
