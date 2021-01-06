@@ -45,6 +45,8 @@
 		}
 	],
 	"rules": {
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
 		"react/prop-types": 0,
 		"react/no-unknown-property": [2],
 		"react/jsx-handler-names": "off",

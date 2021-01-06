@@ -1,6 +1,6 @@
 {
   "name": "@i/eslint-config",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "ESLint configuration for the Intouch Design System",
   "main": "index.js",
   "repository": "https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/eslint-config",
@@ -9,12 +9,12 @@
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "4.6.0",
-    "@typescript-eslint/parser": "4.6.0",
+    "@typescript-eslint/eslint-plugin": "4.12.0",
+    "@typescript-eslint/parser": "4.12.0",
     "babel-eslint": "10.1.0",
-    "eslint": "7.12.0",
-    "eslint-plugin-react": "7.21.5",
+    "eslint": "7.17.0",
+    "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
-    "typescript": ">=4.0.3"
+    "typescript": ">=4.1.3"
   }
 }
