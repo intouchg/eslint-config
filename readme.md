@@ -2,10 +2,11 @@
 
 ESLint configuration for the Intouch Design System
 
+**DEPRECATED - While this is still a viable ESLint configuration as of eslint@7.28.0, we have switched to using open-source ESLint configurations alongside Prettier. See the [changes to @i/starter here](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter/commit/67aeda982d4ccd76b07950cf5256da1938def318?refName=refs%2Fheads%2Fmaster).
 
 ### Getting Started
 
-This ESLint configuration is automatically included in the Intouch Design System app boilerplate [@i/starter](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter).
+This ESLint configuration is **NO LONGER** automatically included ([see here](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter/commit/67aeda982d4ccd76b07950cf5256da1938def318?refName=refs%2Fheads%2Fmaster)) in the Intouch Design System app boilerplate [@i/starter](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter).
 
 To use in your own custom configuration, install then extend this package in your eslint config.
 
