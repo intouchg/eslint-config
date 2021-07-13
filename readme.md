@@ -2,11 +2,10 @@
 
 ESLint configuration for the Intouch Design System
 
-**DEPRECATED - While this is still a viable ESLint configuration as of eslint@7.28.0, we have switched to using open-source ESLint configurations alongside Prettier. See the [changes to @i/starter here](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter/commit/67aeda982d4ccd76b07950cf5256da1938def318?refName=refs%2Fheads%2Fmaster).
 
 ### Getting Started
 
-This ESLint configuration is **NO LONGER** automatically included ([see here](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter/commit/67aeda982d4ccd76b07950cf5256da1938def318?refName=refs%2Fheads%2Fmaster)) in the Intouch Design System app boilerplate [@i/starter](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter).
+This ESLint configuration is automatically included in the Intouch Design System app boilerplate [@i/starter](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter).
 
 To use in your own custom configuration, install then extend this package in your eslint config.
 
@@ -18,11 +17,12 @@ Dependencies to lint JavaScript:
 // package.json
 {
     "devDependencies": {
-        "@babel/eslint-parser": "7.12.1",
-        "@babel/eslint-plugin": "7.11.5",
+        "@babel/eslint-parser": "7.14.7",
+        "@babel/eslint-plugin": "7.14.5",
         "@i/eslint-config": "latest",
-        "eslint": "7.19.0",
-        "eslint-plugin-react": "7.22.0",
+        "eslint": "7.30.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-react": "7.24.0",
         "eslint-plugin-react-hooks": "4.2.0",
     }
 }
@@ -36,15 +36,16 @@ Dependencies to link JavaScript and TypeScript:
 // package.json
 {
     "devDependencies": {
-        "@babel/eslint-parser": "7.12.1",
-        "@babel/eslint-plugin": "7.11.5",
+        "@babel/eslint-parser": "7.14.7",
+        "@babel/eslint-plugin": "7.14.5",
         "@i/eslint-config": "latest",
-        "@typescript-eslint/eslint-plugin": "4.14.2",
-        "@typescript-eslint/parser": "4.14.2",
-        "eslint": "7.19.0",
-        "eslint-plugin-react": "7.22.0",
+        "@typescript-eslint/eslint-plugin": "4.28.3",
+        "@typescript-eslint/parser": "4.28.3",
+        "eslint": "7.30.0",
+        "eslint-config-prettier": "8.3.0",
+        "eslint-plugin-react": "7.24.0",
         "eslint-plugin-react-hooks": "4.2.0",
-        "typescript": "4.1.3"
+        "typescript": "4.3.5"
     }
 }
 ```
