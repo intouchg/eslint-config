@@ -1,11 +1,11 @@
 {
   "name": "@i/eslint-config",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "ESLint configuration for the Intouch Design System",
   "main": "index.js",
   "repository": "https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/eslint-config",
   "author": "Intouch Group",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
