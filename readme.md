@@ -5,7 +5,7 @@ ESLint configuration for the Intouch Design System
 
 ### Getting Started
 
-This ESLint configuration is automatically included in the Intouch Design System app boilerplate [@intouchg/starter](https://intazdoweb.intouchsol.com/IntouchDesignSystem/IntouchDesignSystem/_git/starter).
+This ESLint configuration is automatically included in the Intouch Design System app boilerplate [@intouchg/starter](https://npmjs.com/package/@intouchg/starter).
 
 To use in your own custom configuration, install then extend this package in your eslint config.
 
