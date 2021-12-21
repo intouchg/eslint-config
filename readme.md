@@ -1,57 +1,35 @@
 # @intouchg/eslint-config
 
-ESLint configuration for the Intouch Design System
+ESLint configuration for the [Intouch Design System](https://ids.intouchg.co/)
 
 
-### Getting Started
+## Getting Started
 
 This ESLint configuration is automatically included in the Intouch Design System app boilerplate [@intouchg/starter](https://npmjs.com/package/@intouchg/starter).
 
 To use in your own custom configuration, install then extend this package in your eslint config.
 
+### Install dependencies
 
-#### Install dependencies
-
-Dependencies to lint JavaScript:
 ```jsonc
 // package.json
 {
     "devDependencies": {
-        "@babel/eslint-parser": "7.14.7",
-        "@babel/eslint-plugin": "7.14.5",
-        "@intouchg/eslint-config": "latest",
-        "eslint": "7.30.0",
+        "@babel/eslint-parser": "7.16.5",
+        "@babel/eslint-plugin": "7.16.5",
+        "@typescript-eslint/eslint-plugin": "5.8.0",
+        "@typescript-eslint/parser": "5.8.0",
+        "eslint": "8.5.0",
         "eslint-config-prettier": "8.3.0",
-        "eslint-plugin-react": "7.24.0",
-        "eslint-plugin-react-hooks": "4.2.0",
+        "eslint-plugin-react": "7.27.1",
+        "eslint-plugin-react-hooks": "4.3.0",
+        "typescript": "4.5.4"
     }
 }
 ```
-<br>
+Note: Due to the way ESLint `overrides` work, Typescript `devDependencies` are required regardless of whether you are using Typescript in your project.
 
-or
-
-Dependencies to link JavaScript and TypeScript:
-```jsonc
-// package.json
-{
-    "devDependencies": {
-        "@babel/eslint-parser": "7.14.7",
-        "@babel/eslint-plugin": "7.14.5",
-        "@intouchg/eslint-config": "latest",
-        "@typescript-eslint/eslint-plugin": "4.28.3",
-        "@typescript-eslint/parser": "4.28.3",
-        "eslint": "7.30.0",
-        "eslint-config-prettier": "8.3.0",
-        "eslint-plugin-react": "7.24.0",
-        "eslint-plugin-react-hooks": "4.2.0",
-        "typescript": "4.3.5"
-    }
-}
-```
-
-
-#### Configure eslint
+### Configure eslint
 
 ```jsonc
 // .eslintrc
