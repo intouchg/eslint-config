@@ -1,6 +1,6 @@
 {
   "name": "@intouchg/eslint-config",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "ESLint configuration for the Intouch Design System",
   "main": "index.js",
   "repository": "https://github.com/intouchg/eslint-config",

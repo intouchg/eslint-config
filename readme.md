@@ -10,7 +10,7 @@ To use in your own custom configuration, install then extend this package in you
 
 1. Install dependencies
 ```sh
-yarn add @intouchg/eslint-config @babel/eslint-parser @babel/eslint-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks typescript 
+yarn add --dev @intouchg/eslint-config @babel/eslint-parser @babel/eslint-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-react eslint-plugin-react-hooks typescript 
 ```
 Note: Due to the way ESLint `overrides` work, Typescript `devDependencies` are required regardless of whether you are using Typescript in your project.
 
